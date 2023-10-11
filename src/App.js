@@ -3,6 +3,7 @@ import "./App.css";
 import HomePage from "./customer/components/pages/HomePage/HomePage";
 import Footer from "./customer/components/Footer/Footer";
 import Navigation from "./customer/components/navigation/Navigation";
+import Product from "./customer/components/Product/Product";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Navigation />
 
       <div>
-        <HomePage />
+        <Product />
       </div>
       <Footer />
     </div>

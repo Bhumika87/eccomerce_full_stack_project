@@ -15,7 +15,7 @@ const HomeSectionCarousel = ({ data, sectionName }) => {
   const slideNext = () => setActiveIndex(activeIndex + 1);
 
   const syncActiveIndex = ({ item }) => setActiveIndex(item);
-  const items = data.slice(activeIndex, activeIndex + 3).map((item) => (< HomeSectionCard product={item} />));
+  const items = data.slice(activeIndex, activeIndex + 6).map((item) => (< HomeSectionCard product={item} />));
   return (
     <div className=" border ">
       <h2 className="text-2xl font-extrabold text-gray-800 py-5">
